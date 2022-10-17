@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="shortcut icon" href="logo.webp">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .first{
+            position: absolute;
+            left 40px
+        }
+        body{
+            background-color: #f3f5f8;
+          position: relative;
+          top: 20vh;
+          left: 60vw;
+        }
+        .main{
+            height: 350px;
+            width: 350px;
+            background-color: white;
+            border: 1px;
+            border-radius: 4px;
+            display: flex;
+            justify-content:center;
+            padding: 20px;
+        }
+        #email{
+           border: 1px solid rgb(74, 109, 120);
+            margin: 10px;
+            border-radius: 5px;
+            
+        }
+        .button{
+            width: 310px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            padding: 7px;
+            margin: 5px;
+            position: relative;
+            left: 5px;
+            text-align: center;
+            background-color: blue;
+            color: wheat;
+            font-weight: bold;
+            border-radius: 7px;
+        }
+        .forget{
+            text-decoration: none;
+            text-align: center;
+            display: grid;
+            padding: 10px;
+            
+        }
+        .create{
+            background-color: rgb(29, 176, 29);
+            height: 20px;
+            width: 180px;
+            margin: 20px;
+            text-align: center;
+            position: relative;
+            left: 50px;
+            border-radius: 4px;
+            color: white;   
+            padding: 10px;         
+        }
+        .ano{
+            position: absolute;
+            left: -700px;
+            top: 40px;
+        }
+        .paragraph{
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            font-size: 28px;
+            }
+       
+    </style>
+</head>
+<body>
+   <div class="main">
+    <div class="second">
+        <input type="email" name="email" id="email" style="width:300px ;height:35px; padding: 5px;" placeholder="Email or phone number">
+        <input type="password" name="email" id="email" style="width:300px ;height:35px; padding: 5px;" placeholder="Password">
+        <button class="button">Log In</button>
+        <a href="#" class="forget">Forget password?</a>
+        <hr>
+        <div class="create" >Creat new account</div>
+    </div>
+   </div>
+   <div class="ano">
+    <img src="facebook.jpg" alt="photo">
+    <p class="paragraph">Connect with friends and the world <br> around you on Facebook.</p>
+   </div>
+
+</body>
+</html>
